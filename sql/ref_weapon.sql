@@ -1,0 +1,61 @@
+create table jtmcraft_weapons
+(
+    weapon_hash  int                          not null primary key,
+    weapon_name  varchar(255)                 not null
+) charset = utf8;
+
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_BOW', -2002235300);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_BOW_IMPROVED', 115405099);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_FISHINGROD', -1415022764);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_KIT_BINOCULARS', -160924582);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_KIT_BINOCULARS_IMPROVED', 1652431022);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_KIT_CAMERA', -1016714371);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_KIT_METAL_DETECTOR', -862059856);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_LASSO', 2055893578);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_LASSO_REINFORCED', -680302000);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_CLEAVER', -281894307);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_DAVY_LANTERN', 1247405313);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_HAMMER', -295349450);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_HATCHET', 165751297);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_HATCHET_HUNTER', 710736342);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_KNIFE', -618550132);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_KNIFE_JAWBONE', 277270593);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_KNIFE_TRADER', -1448818329);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_LANTERN', -164645981);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_MACHETE', 680856689);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_MACHETE_COLLECTOR', -1774451313);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_MACHETE_HORROR', 1953585457);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MELEE_TORCH', 1742487518);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_MOONSHINEJUG_MP', 1698907612);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_PISTOL_M1899', 1534638301);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_PISTOL_MAUSER', -2055158210);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_PISTOL_SEMIAUTO', 1701864918);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_PISTOL_VOLCANIC', 34411519);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REPEATER_CARBINE', -183018591);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REPEATER_EVANS', 1905553950);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REPEATER_HENRY', -1783478894);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REPEATER_WINCHESTER', -1471716628);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_CATTLEMAN', 379542007);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_CATTLEMAN_MEXICAN', 383145463);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_DOUBLEACTION', 127400949);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_DOUBLEACTION_GAMBLER', -2082646505);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_LEMAT', 1529685685);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_NAVY', 132728264);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_REVOLVER_SCHOFIELD', 2075992054);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_RIFLE_BOLTACTION', 1999408598);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_RIFLE_ELEPHANT', -1717423096);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_RIFLE_SPRINGFIELD', 1676963302);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_RIFLE_VARMINT', -570967010);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SHOTGUN_DOUBLEBARREL');
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SHOTGUN_PUMP', 834124286);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SHOTGUN_REPEATING', 1674213418);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SHOTGUN_SAWEDOFF', 392538360);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SHOTGUN_SEMIAUTO', 1838922096);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SNIPERRIFLE_CARCANO', 1402226560);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_SNIPERRIFLE_ROLLINGBLOCK', -506285289);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_BOLAS', 1151374672);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_DYNAMITE', -1504859554);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_MOLOTOV', 1885857703);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_THROWING_KNIVES', -764310200);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_TOMAHAWK', -1511427369);
+insert into jtmcraft_weapons (weapon_name, weapon_hash) values ('WEAPON_THROWN_TOMAHAWK_ANCIENT', 2133046983);

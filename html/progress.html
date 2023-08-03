@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link rel="stylesheet" href="progress.css">
+	<title>Progress</title>
+</head>
+
+<body id="progress-body">
+	<div class="grid">
+
+		<div class="item">
+			<div class="item-content">
+				<div class="item-content-header">Kills</div>
+				<div class="item-content-body">
+					<div id="kills-total">Total: <span id="kills-total-content">0</span></div>
+					<div id="kills-executions">Executions: <span id="kills-executions-content">0</span> (<span
+							id="kills-executions-content-percentage">0</span>%)</div>
+					<div id="kills-from-hip">From hip: <span id="kills-from-hip-content">0</span> (<span
+							id="kills-from-hip-content-percentage">0</span>%)</div>
+					<div id="kills-from-horse">From horse: <span id="kills-from-horse-content">0</span> (<span
+							id="kills-from-horse-content-percentage">0</span>%)</div>
+					<div id="kills-head-shots">Head shots: <span id="kills-head-shots-content">0</span> (<span
+							id="kills-head-shots-content-percentage">0</span>%)</div>
+					<div id="kills-melee">Melee: <span id="kills-melee-content">0</span> (<span
+							id="kills-melee-content-percentage">0</span>%)</div>
+					<div id="kills-longest-shot">Longest shot: <span id="kills-longest-shot-content-meters">0</span> m
+						(<span id="kills-longest-shot-content-feet">0</span> ft)</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="item">
+			<div class="item-content">
+				<div class="item-content-header">Pistol</div>
+				<div class="item-content-body">
+					<div id="pistol-kills">Kills: <span id="pistol-kills-content">0</span> (<span
+							id="pistol-kills-content-percentage">0</span>%)</div>
+					<div id="pistol-kills-longest-shot">Longest shot: <span
+							id="pistol-kills-longest-shot-content-meters">0</span> m
+						(<span id="pistol-kills-longest-shot-content-feet">0</span> ft)</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+<script src="progress.js" type="text/javascript"></script>
+
+</html>

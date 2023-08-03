@@ -1,0 +1,42 @@
+@font-face {
+	font-family: RDRLino-Regular;
+	src: url(RDRLino-Regular.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: HapnaSlabSerif-Medium;
+	src: url(HapnaSlabSerif-Medium.ttf) format('truetype')
+}
+
+.grid {
+	position: relative;
+}
+
+.item {
+	display: block;
+	position: absolute;
+	z-index: 1;
+	background: #000;
+	color: #fff;
+	width: 600px;
+	min-height: 400px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.item-content {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.item-content-header {
+	font-family: 'RDRLino-Regular';
+	font-size: 4rem;
+}
+
+.item-content-body {
+	font-family: 'HapnaSlabSerif-Medium';
+	font-size: 2rem;
+	padding-bottom: 15px;
+}
